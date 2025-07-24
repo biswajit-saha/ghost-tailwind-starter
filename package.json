@@ -1,13 +1,13 @@
 {
-    "name": "ghost-tailwind-theme",
+    "name": "ghost-tailwind-starter",
     "version": "1.0.0",
-    "description": "A custom Ghost theme using Tailwind CSS and Vite.",
-    "author": "Your Name",
+    "description": "A starter Ghost theme with tailwind css.",
+    "author": "Biswajit Saha",
     "engines": {
         "ghost": ">=5.0.0"
     },
     "config": {
-        "posts_per_page": 5
+        "posts_per_page": 9
     },
     "scripts": {
         "dev": "gulp",
