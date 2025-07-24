@@ -1,0 +1,35 @@
+# Node
+node_modules/
+package-lock.json
+npm-debug.log*
+yarn.lock
+
+# Build artifacts
+build/
+dist/
+*.zip
+assets/css/*.min.*
+assets/js/*.min.*
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# IDEs/editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+
+# Gulp cache or temp files
+.cache/
+.tmp/
+
+# Ghost theme preview cache (sometimes created by tooling)
+.ghost/
+
+# Mac zipping metadata
+__MACOSX/

@@ -1,0 +1,32 @@
+{
+    "name": "ghost-tailwind-theme",
+    "version": "1.0.0",
+    "description": "A custom Ghost theme using Tailwind CSS and Vite.",
+    "author": "Your Name",
+    "engines": {
+        "ghost": ">=5.0.0"
+    },
+    "config": {
+        "posts_per_page": 5
+    },
+    "scripts": {
+        "dev": "gulp",
+        "watch": "gulp watch",
+        "build": "gulp build",
+        "zip": "gulp zip"
+    },
+    "devDependencies": {
+        "autoprefixer": "^10.4.0",
+        "browser-sync": "^2.29.0",
+        "cssnano": "^7.1.0",
+        "del": "^6.1.1",
+        "gulp": "^4.0.2",
+        "gulp-concat": "^2.6.1",
+        "gulp-postcss": "^9.0.1",
+        "gulp-rename": "^2.0.0",
+        "gulp-sourcemaps": "^3.0.0",
+        "gulp-terser": "^2.1.0",
+        "gulp-zip": "^5.1.0",
+        "tailwindcss": "^3.4.0"
+    }
+}

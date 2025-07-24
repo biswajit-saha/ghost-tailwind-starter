@@ -1,0 +1,13 @@
+{{!< default}}
+
+{{> "head"}}
+<main class="prose mx-auto px-4">
+    <h1>Welcome to my Ghost theme!</h1>
+    {{#foreach posts}}
+        <article class="text-green-500">
+            <h2><a href="{{url}}">{{title}}</a></h2>
+            <p>{{excerpt}}</p>
+        </article>
+    {{/foreach}}
+</main>
+{{> "footer"}}
